@@ -1,0 +1,32 @@
+{
+  "name": "hermione-sauce-connect",
+  "version": "0.0.1",
+  "description": "Plugin for hermione to launch Sauce Connect when integration testing started",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run test-unit && npm run lint",
+    "test-unit": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gemini-testing/hermione-sauce-connect.git"
+  },
+  "keywords": [
+    "hermione",
+    "plugin",
+    "sauce-connect"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gemini-testing/hermione-sauce-connect/issues"
+  },
+  "homepage": "https://github.com/gemini-testing/hermione-sauce-connect#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.1.0",
+    "eslint-config-gemini-testing": "^2.8.0",
+    "mocha": "^6.2.0",
+    "sinon": "^7.4.1"
+  }
+}
